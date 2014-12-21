@@ -22,7 +22,8 @@ Please note these assumptions when inspecting the tidy dataset and executing the
 
 Use these steps to execute the R script to generate the tidy data set
 
-1. From this Github repository download the raw data housed in the compressed file: `getdata-projectfiles-UCI HAR Dataset.zip`, download directly from the UCI Machine Learning Repository website, or clone this repo in it's entirety.  See the **CodeBood.md** file for more information
+1. From this Github repository download the raw data housed in the compressed file: `getdata-projectfiles-UCI HAR Dataset.zip`, download directly from the UCI Machine Learning Repository website, or clone this repo in it's entirety.  
+    * See the **CodeBood.md** file for more information on accessing the data from the UCI Machine Learning Repository website.
 1. If not already installed, install the `plyr` R package into your local R implementation.  The `plyr` package is a prerequisite to execute tidying script
 1. Extract the compressed files into a directory of your choice
 1. Download the tidying script (`run_analysis.R`) to the folder containing the uncompressed data files (e.g. `...\UCI HAR Dataset`)
