@@ -42,10 +42,10 @@ Listed below are the variables generated during the tidy process and included in
 
 *NOTE*: See the "Human Activity Recognition Using Smartphones Data Set" `README.txt` file for more information on the data stored in these variables including units.
 
-| Column # | Name                                      | Description                                                                    |
+| Column | Name                                      | Description                                                                    |
 |----------|-------------------------------------------|--------------------------------------------------------------------------------|
-| 1        | SubjectId                                 | "Number uniquely identifying the test subject (person acting with the device)" |
-| 2        | Activity                                  | "Physical activity conducted by the test subject"                              |
+| 1        | SubjectId                                 | Number uniquely identifying the test subject (person acting with the device) |
+| 2        | Activity                                  | Physical activity conducted by the test subject                              |
 | 3        | Avg: tBodyAcc-mean()-X                    | Arithmetic mean of variable tBodyAcc-mean()-X                                  |
 | 4        | Avg: tBodyAcc-mean()-Y                    | Arithmetic mean of variable tBodyAcc-mean()-Y                                  |
 | 5        | Avg: tBodyAcc-mean()-Z                    | Arithmetic mean of variable tBodyAcc-mean()-Z                                  |
