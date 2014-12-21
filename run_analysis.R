@@ -339,6 +339,6 @@ processed_dataset_R_object <- process_dataset(merged_datasets_R_object)
 out_tidy_dataset <- produce_tidy_dataset(processed_dataset_R_object)
 
 # Produce the tidy observation average dataset
-produce_tidy_dataset_average(out_tidy_dataset, output_tidy_average_dataset)
+out_tidy_average_dataset <- produce_tidy_dataset_average(out_tidy_dataset, output_tidy_average_dataset)
 
 print("TIDY: End processing.")
