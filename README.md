@@ -26,8 +26,8 @@ Use these steps to execute the R script to generate the tidy data set
 1. Clone this repo to your desktop or download the raw data directly from the UCI Machine Learning Repository website. See the **CodeBood.md** file for more information on accessing the data from the UCI Machine Learning Repository website.
 1. Extract the compressed files contained in `getdata-projectfiles-UCI HAR Dataset.zip`
 1. Copy or move the tidying script (`run_analysis.R`) to the folder containing the uncompressed data files (e.g. `...\UCI HAR Dataset`)
-1. Open the data folder in a terminal emulator (e.g. Terminal on Mac OS, command prompt on Windows)
-1. With the R script (`run_analysis.R`) in the folder containing the uncompressed data files (`...\UCI HAR Dataset`), run the R script using the command (`Rscript run_analysis.R`)
+1. Open the data folder (`...\UCI HAR Dataset`) in a terminal emulator (e.g. Terminal on Mac OS, command prompt on Windows)
+1. With the R script (`run_analysis.R`) in the folder containing the uncompressed data files (`...\UCI HAR Dataset`), run the R script using the command (`Rscript run_analysis.R`) using Terminal on Mac OS, the command prompt on Windows or equivalent on your machine
 1. Inspect the script output
 1. Inspect the output files located in: `...\UCI HAR Dataset\tidy_output`
 1. View the tidy dataset:
