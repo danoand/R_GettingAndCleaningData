@@ -31,4 +31,4 @@ Use these steps to execute the R script to generate the tidy data set
 1. Inspect the script output
 1. Inspect the output files located in: `...\UCI HAR Dataset\tidy_output`
 1. View the tidy dataset:
-* `...\UCI HAR Dataset\tidy_output\HumanActivitySmartphonesDataSet_Average_TidyData.txt`
+    * `...\UCI HAR Dataset\tidy_output\HumanActivitySmartphonesDataSet_Average_TidyData.txt`
