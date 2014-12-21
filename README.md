@@ -7,16 +7,16 @@ This document describes the steps to take to produce a tidy set based on the "Hu
 Please note these assumptions when inspecting the tidy dataset and executing the R programming language script that generates the tidy dataset.
 
 * The R tidying script (`run_analysis.R`) was developed and tested in this technical environment:
-* R version 3.1.1 (2014-07-10)
-* Mac OS X version 10.9.5
+    * R version 3.1.1 (2014-07-10)
+    * Mac OS X version 10.9.5
 * The script loads and uses the **plyr** package.  If the **plyr** package is not installed, the script will generate an error message and stop processing
 * The script creates two directories to store interim working files (`tidy_work/...`) and final tidy datasets (`tidy_output/...`)
 * To minimize memory usage, the script executes in steps and writes and reads interim data files.  These data files are saved to the working folder (`tidy_work/...`)
-* NOTE: The script can be run repeatedly.  Interim data files will be created if they don't exist and overwritten if they are present.  These files can be deleted after the process is complete.
+    * NOTE: The script can be run repeatedly.  Interim data files will be created if they don't exist and overwritten if they are present.  These files can be deleted after the process is complete.
 * Two tidy data sets are produced and saved to the output directory (`tidy_output/...`)
-* The output datasets are:
-* `HumanActivitySmartphonesDataSet_Average_TidyData.txt`
-* `HumanActivitySmartphonesDataSet_TidyData.txt`
+    * The output datasets are:
+        * `HumanActivitySmartphonesDataSet_Average_TidyData.txt`
+        * `HumanActivitySmartphonesDataSet_TidyData.txt`
 
 #### Executing the Tidying Script
 
