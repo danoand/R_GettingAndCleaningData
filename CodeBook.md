@@ -138,7 +138,7 @@ Listed below are the variables generated during the tidy process and included in
 
 ##### "Human Activity Recognition Using Smartphones Data Set" README.TXT
 
-Listed below is the "read me" file included in the raw data set for your convenience.
+Listed below (for your convenience) is the "read me" file included in the raw data set.
 
 
     ==================================================================
